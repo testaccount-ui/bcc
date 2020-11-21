@@ -1,0 +1,40 @@
+.pcc---blogsCard a .pcc---cardhover{
+    position: relative;    
+    height: 230px;
+    width: auto;
+    overflow: hidden; 
+    transition:  0.5s ease-in-out;
+    border-radius: 5px;
+}
+.pcc---blogsCard a .pcc---cardhover div{
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    background-color: rgb(10 14 24 / 0.3);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    transition:  0.5s ease-in-out;
+}
+.pcc---blogsCard a .pcc---cardhover img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition:  0.5s ease-in-out;
+}
+.pcc---blogsCard a:hover .pcc---cardhover div{
+    opacity: 1;
+    transition:  0.5s ease-in-out;
+}
+.pcc---blogsCard a:hover .pcc---cardhover img{
+    transform: scale(1.11) ;
+    transition:  0.5s ease-in-out;
+}
+.pcc---blogsCard a h4{
+    font-size: 22px;
+}

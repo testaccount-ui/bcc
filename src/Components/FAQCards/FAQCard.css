@@ -1,0 +1,10 @@
+.bc---faqCard{
+    display: block;
+    width: 100%;
+}
+.bc---faqCard h3{
+    color: #ffcc0f;
+}
+.bc---faqCard p{
+    color: #ffffff;
+}

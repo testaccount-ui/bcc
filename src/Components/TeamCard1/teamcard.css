@@ -1,0 +1,19 @@
+.bc---teamCard{
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 5px 5px 3px rgb(110, 88, 7, 0.66);
+}
+.bc---teamCard img{
+    width: 100px;
+}
+.bc---teamCard a{
+    background: #F6F6D0;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin: auto 5px;
+}
+.bc---teamCard a svg{
+    margin-top: 5px;
+}

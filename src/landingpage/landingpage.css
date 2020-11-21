@@ -1,0 +1,97 @@
+
+.bc---section_subHeading{
+    color: #ffcc0f;
+    font-size: 30px;
+    position: relative;
+    padding-left: 75px;
+    text-transform: uppercase;
+}
+.bc---section_subHeading::before{
+    content: "";
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    left: 0px;
+    background: #ffcc0f;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bc---section_heading{
+    font-size: 55px;
+}
+
+.bc---slider{
+    background-color: #ffcc0F;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 80%;
+}
+.bc---button{
+    background-color: black !important;
+    color: #ffcc0F !important;
+}
+.bc---slider .bc---counter{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0px 2px 2px rgb(110, 88, 7, 0.66);
+}
+.bc---bananacoin{
+    background-color: black;
+    color: #ffffff;
+}
+
+.bc---feature{
+    background-color: #ffcc0F;
+}
+.bc---feature .bc---section_subHeading{
+    color: #ffffff;
+}
+.bc---feature .bc---section_subHeading::before{
+    background-color: #ffffff;
+}
+
+.bc---contact input{
+    background-color: #fff;
+ 
+}
+.bc---contactForm{
+    width: 100%;
+}
+.bc---contactForm div{
+    width: 75%;
+}
+.filled-basic3 div{background-color: #ffffff !important;}
+.bc---contactForm a{
+    background-color: #ffcc0f;
+    border-radius: 3px;
+    padding: 12px 45px;
+}
+@media only screen and (max-width: 959px){
+    .bs---slider_forMobile{
+        background-color: rgb(255 255 255 / 51%);
+        padding: 11px 20px;
+        border-radius: 7px;
+    }
+    /* .pcc---footer{display: none !important;} */
+}
+
+@media only screen and (max-width: 599px){
+    .bc---contactForm div{
+        width: 100%;
+    }
+}
+.bc---chart_height>div{
+    height: 30vh;
+}
+.bc---chart_height,
+.bc---chart_height div,
+.bc---chart_height span,
+.bc---chart_height rect{
+    background-color: black;
+    background: black;
+    fill: black;
+}

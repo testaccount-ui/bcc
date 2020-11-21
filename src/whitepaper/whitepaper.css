@@ -1,0 +1,22 @@
+.bc---whitePaper .bc---height{
+    min-height: 50vh;
+}
+.bc---whitePaper .MuiTabs-flexContainer{
+    justify-content: center;
+}
+.bc---whitePaper .MuiAppBar-colorPrimary {
+    color: #000;
+    background-color: #ffcc0f;
+    border: 1px solid #bd9603;
+    box-shadow: unset;
+}
+.bc---whitePaper .PrivateTabIndicator-colorSecondary-6 {
+    background-color: #000000;
+    bottom: 4px;
+    height: 3px;
+}
+.bc---whitePaper h3{
+    color: #ffcc0f;  
+    margin-bottom: 20px; 
+    text-transform: capitalize;
+}

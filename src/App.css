@@ -1,0 +1,20 @@
+.App {
+  text-align: left;
+}
+a,button,p{
+  font-size: 15px;
+}
+a,a:hover{
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+*{
+  font-family: 'Roboto';
+}
+button:focus {
+  outline: unset;
+}

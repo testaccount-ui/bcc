@@ -1,0 +1,9 @@
+.bc---timespan h1{
+  font-size: 52px;
+  line-height: 0.6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.bc---timespan span{
+  font-size: 12px;
+}

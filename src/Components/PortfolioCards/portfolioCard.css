@@ -1,0 +1,19 @@
+.bc---faqCard{
+    display: block;
+    width: 100%;
+}
+#simple-modal-title{
+    color: #ffcc0f;
+}
+.bc---faqCard p{
+    color: #ffffff;
+}
+.makeStyles-paper-3,
+.makeStyles-paper-4{
+    width: 70%;
+    height: 90vh;
+    overflow-y: auto;
+}
+.bc---roundedimage{
+    border-radius: 50px;;
+}

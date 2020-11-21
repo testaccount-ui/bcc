@@ -1,0 +1,71 @@
+.pcc---buyCard .pcc---buyCardBox{
+    background-color: #000000;
+    /* background-image: url(../../img/card-Bg.png); */
+    background-size: 80px;
+    background-position: 8% 10%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 3px #d2d2d2;
+    transition:  0.3s ease-in-out;
+    position: relative;
+    border-radius: 5px;;
+    min-height:200px;
+    color: #fff;
+    box-shadow: 8px 8px 5px #96780b;
+}
+
+.pcc---buyCard .pcc---buyCardBox h5{
+    font-size: 21px;
+    position: relative;
+}
+.pcc---buyCard .pcc---buyCardBox h5::before{
+    content: "";
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    margin-top: 40px;
+    background: #ffffff;
+    right: 0px;
+    left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pcc---buyCard .pcc---buyCardBox h4 span{
+    padding: 5px;
+    border: 3px solid #4043ff;
+    height: 16px;
+    width: 16px;
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 8px;
+    border-radius: 11px;
+    font-size: 15px;
+}
+.pcc---buyCard:hover .pcc---buyCardBox h4 span{
+    box-shadow: 0px 0px 10px #3f43ff;
+}
+.pcc---buyCard .pcc---buyCardBox p{
+    min-height: 95px;
+}
+.pcc---buyCardBox img{
+    width: 30%;
+}
+@media only screen and (max-width: 991px){
+    .pcc---buyCard .pcc---buyCardBox h4{
+        font-size: 20px;
+        min-height: 100px;
+    }
+    .pcc---buyCardBox img{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 787px){
+    .pcc---buyCard .pcc---buyCardBox h4{
+        font-size: 20px;
+        min-height: 75px;;
+    }
+    .pcc---buyCard .pcc---buyCardBox p{
+        min-height: 162px;
+        text-align: justify;
+    }  
+}
+.bc---roadMap{background-color: black; color: #ffffff;}
